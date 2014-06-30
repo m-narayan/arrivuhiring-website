@@ -1,0 +1,338 @@
+
+/*#content .table{
+    padding: 30px 0 0 0 ;
+
+}
+#content .table .row{
+    border: 1px solid #ddd ;
+}
+#content .table .row .col{
+    width: 140px;
+    border-right: 1px solid #ddd;
+
+}
+#content .table .row .col.first{
+    width: 391px;
+    padding: 11px 20px;
+    border-right: 1px solid #ddd ;
+    text-align: left;
+    line-height: 28px;
+
+
+}
+#content .table .row .col.last{
+    border-right: 1px;
+}
+#content .table .row.first{
+    color: #004448;
+    border: 0px;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0;
+}
+#content .table .row .start{
+    font-size: 24px;
+}
+#content .table .col{
+    padding: 15px 20px;
+    text-align: center;
+}
+.col .bold-font{
+    font-size: 18px;
+}*/
+/*#content .table .col.professional{
+    background: #ddd;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+#content .table .col.professional-plus{
+    background: #00accd;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid #00accd;
+    border-right: 1px solid #00accd;
+}
+#content .table .col.enterprise{
+    background: #004448;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid #004448;
+    border-right: 1px solid #004448 ! important;
+}*/
+/*#content .table .col.topic{
+    border-right: 1px solid #fff ! important;
+    padding-left: 5px ! important;
+    border-bottom: 1px solid #ddd;
+}
+#content .table .row .col.col1{
+    border-bottom: 0px;
+}
+#content .table .row{
+    border-bottom: 0px;
+}
+#content .table .row1 {
+    border-top:0px;
+    font-size: 14px;
+    line-height: 16px;
+}
+#content .table .row1 .col {
+    border-bottom: 1px dotted #ddd;
+
+}
+#content .table .row1 .col.first{
+    line-height: 24px;
+    text-align: left;
+    padding-right: 5px;
+}
+#content .table .row1.large {
+    height: 55px;
+}
+#content table{
+    border: 1px solid #ddd;
+    border-top: 0px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+ .col.first{
+    width: 380px;
+    padding: 11px 20px;
+    
+}
+ .col1{
+    width: 140px;
+    padding: 11px 20px;
+    
+    text-align: center;
+    
+
+}
+ .borderless{
+    border-bottom: 0px;
+}
+#content .wrapper .signup-button{
+    margin: 35px auto;
+    text-align: center;
+}
+#content .wrapper .faq{
+    text-align: center ;
+    font-size: 32px;
+}
+#content .wrapper .left-side{
+    width: 960px;
+    padding: 10px;
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: justify;
+}
+#content .wrapper .left-side .note{
+    text-decoration: underline ;
+    padding-top: 20px;
+}
+#content .wrapper .left-side p, #content .wrapper .right-side p{
+    padding: 10px 0 ;
+}
+
+#content .wrapper .left-side .step{
+   font-style: italic;
+
+
+}
+#content .wrapper .left-side .steps{
+    padding: 10px 0 ;
+}
+#content .wrapper .left-side .ans {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}*/
+#content .price-table .ques-icon{
+    background:url('../images/Question_Icon.png');
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    *display: inline;
+}
+/*#content .price-table .contact{
+    line-height:  24px;
+}*/
+#content .price-table .desc{
+    font-size: 12px;
+    color: #999;
+}
+.floatright {
+float: right;
+}
+
+/*tooltip*/
+
+.ui-tooltip, .arrow:after {
+    background: black !important;
+    border: 1px solid black ! important;
+    cololr:#fff;
+}
+.ui-tooltip {
+    max-width: 300px;
+    padding: 10px 20px;
+    color: white ! important;
+    border-radius: 20px;
+    font: bold 12px "Helvetica Neue", Sans-Serif;
+    box-shadow: 0 0 7px black;
+    font-size: 12px ! important;
+    text-align: left;
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 44%;
+    margin-left: -35px;
+    bottom: 55px;
+}
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+
+.floatleft {float: left;}
+
+
+.wrapper {
+position: relative;
+/*width: 960px;*/
+margin-left: auto;
+margin-right: auto;
+/*padding: 0px 25px 0px 15px;*/
+padding: 10px 10%;
+text-align: left;
+}
+#content {
+width: 100%;
+}
+/**/
+* { 
+    margin: 0; 
+    padding: 0; 
+
+}
+
+#page-wrap {
+    margin: 50px;
+}
+p {
+    margin: 20px 0; 
+}
+
+    /* 
+    Generic Styling, for Desktops/Laptops 
+    */
+    table { 
+        width: 100%; 
+        border-collapse: collapse; 
+    }
+    /* Zebra striping */
+    tr:nth-of-type(odd) { 
+        background: #eee; 
+    }
+    th { 
+        background: #333; 
+        color: #000; 
+        /*font-weight: bold; */
+    }
+    td, th { 
+        padding: 6px; 
+        border: 1px solid #ddd; 
+        text-align: left; 
+    }
+    /* 
+    Max width before this PARTICULAR table gets nasty
+    This query will take effect for any screen smaller than 760px
+    and also iPads specifically.
+    */
+    @media only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+    
+        /* Force table to not be like tables anymore */
+        table, thead, tbody, th, td, tr { 
+            display: block; 
+        }
+        
+        /* Hide table headers (but not display: none;, for accessibility) */
+        thead tr { 
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+        
+        tr { border: 1px solid #ccc; }
+        
+        td { 
+            /* Behave  like a "row" */
+            border: none;
+            border-bottom: 1px solid #eee; 
+            position: relative;
+            padding-left: 50%;
+            word-wrap:break-word; 
+        }
+        
+        td:before { 
+            /* Now like a table header */
+            position: absolute;
+            /* Top/left values mimic padding */
+            top: 6px;
+            left: 6px;
+            width: 45%; 
+            padding-right: 10px; 
+            white-space: nowrap;
+            word-wrap:break-word; 
+        }
+        
+        /*
+        Label the data
+        */
+        td:nth-of-type(1):before { content: "Start Free Pay as you go"; }
+        td:nth-of-type(2):before { content: "Standard"; }
+        td:nth-of-type(3):before { content: "Professional "; }
+        td:nth-of-type(4):before { content: "Enterprise"; }
+       
+    }
+    
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        body { 
+            padding: 0; 
+            margin: 0; 
+            width: 320px;font: 14px/1.4 Georgia, Serif;  }
+
+        }
+
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        body { 
+            width: 495px; 
+        }
+    }
+    
