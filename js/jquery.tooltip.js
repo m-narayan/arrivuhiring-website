@@ -787,7 +787,7 @@ $.Widget.prototype = {
     }
 };
 
-$.each( { show: "fadeIn", hide: "fadeOut" }, function( method, defaultEffect ) {
+$.each( { show: "fadeOut", hide: "fadeIn" }, function( method, defaultEffect ) {
     $.Widget.prototype[ "_" + method ] = function( element, options, callback ) {
         if ( typeof options === "string" ) {
             options = { effect: options };
@@ -3852,7 +3852,7 @@ $.extend(Datepicker.prototype, {
                 inst.dpDiv.hide(showAnim, $.datepicker._get(inst, "showOptions"), duration, postProcess);
             } else {
                 inst.dpDiv[(showAnim === "slideDown" ? "slideUp" :
-                    (showAnim === "fadeIn" ? "fadeOut" : "hide"))]((showAnim ? duration : null), postProcess);
+                    (showAnim === "fadeOut" ? "fadeIn" : "hide"))]((showAnim ? duration : null), postProcess);
             }
 
             if (!showAnim) {

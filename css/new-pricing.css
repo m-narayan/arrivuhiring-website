@@ -1,151 +1,3 @@
-
-/*#content .table{
-    padding: 30px 0 0 0 ;
-
-}
-#content .table .row{
-    border: 1px solid #ddd ;
-}
-#content .table .row .col{
-    width: 140px;
-    border-right: 1px solid #ddd;
-
-}
-#content .table .row .col.first{
-    width: 391px;
-    padding: 11px 20px;
-    border-right: 1px solid #ddd ;
-    text-align: left;
-    line-height: 28px;
-
-
-}
-#content .table .row .col.last{
-    border-right: 1px;
-}
-#content .table .row.first{
-    color: #004448;
-    border: 0px;
-    line-height: 24px;
-    font-size: 14px;
-    margin: 0;
-}
-#content .table .row .start{
-    font-size: 24px;
-}
-#content .table .col{
-    padding: 15px 20px;
-    text-align: center;
-}
-.col .bold-font{
-    font-size: 18px;
-}*/
-/*#content .table .col.professional{
-    background: #ddd;
-    font-weight: bold;
-    border-bottom: 1px solid #ddd;
-}
-#content .table .col.professional-plus{
-    background: #00accd;
-    font-weight: bold;
-    color: #fff;
-    border-bottom: 1px solid #00accd;
-    border-right: 1px solid #00accd;
-}
-#content .table .col.enterprise{
-    background: #004448;
-    font-weight: bold;
-    color: #fff;
-    border-bottom: 1px solid #004448;
-    border-right: 1px solid #004448 ! important;
-}*/
-/*#content .table .col.topic{
-    border-right: 1px solid #fff ! important;
-    padding-left: 5px ! important;
-    border-bottom: 1px solid #ddd;
-}
-#content .table .row .col.col1{
-    border-bottom: 0px;
-}
-#content .table .row{
-    border-bottom: 0px;
-}
-#content .table .row1 {
-    border-top:0px;
-    font-size: 14px;
-    line-height: 16px;
-}
-#content .table .row1 .col {
-    border-bottom: 1px dotted #ddd;
-
-}
-#content .table .row1 .col.first{
-    line-height: 24px;
-    text-align: left;
-    padding-right: 5px;
-}
-#content .table .row1.large {
-    height: 55px;
-}
-#content table{
-    border: 1px solid #ddd;
-    border-top: 0px;
-    font-size: 14px;
-    line-height: 18px;
-}
-
- .col.first{
-    width: 380px;
-    padding: 11px 20px;
-    
-}
- .col1{
-    width: 140px;
-    padding: 11px 20px;
-    
-    text-align: center;
-    
-
-}
- .borderless{
-    border-bottom: 0px;
-}
-#content .wrapper .signup-button{
-    margin: 35px auto;
-    text-align: center;
-}
-#content .wrapper .faq{
-    text-align: center ;
-    font-size: 32px;
-}
-#content .wrapper .left-side{
-    width: 960px;
-    padding: 10px;
-    line-height: 24px;
-    font-size: 14px;
-    margin-top: 20px;
-    text-align: justify;
-}
-#content .wrapper .left-side .note{
-    text-decoration: underline ;
-    padding-top: 20px;
-}
-#content .wrapper .left-side p, #content .wrapper .right-side p{
-    padding: 10px 0 ;
-}
-
-#content .wrapper .left-side .step{
-   font-style: italic;
-
-
-}
-#content .wrapper .left-side .steps{
-    padding: 10px 0 ;
-}
-#content .wrapper .left-side .ans {
-    padding-left: 30px;
-    padding-bottom: 20px;
-}*/
 #content .price-table .ques-icon{
     background:url('../images/Question_Icon.png');
     width: 17px;
@@ -272,7 +124,7 @@ p {
     This query will take effect for any screen smaller than 760px
     and also iPads specifically.
     */
-    @media only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+    @media only screen and (max-width: 760px)  {
     
         /* Force table to not be like tables anymore */
         table, thead, tbody, th, td, tr { 
@@ -306,16 +158,29 @@ p {
             width: 45%; 
             padding-right: 10px; 
             white-space: nowrap;
-            word-wrap:break-word; 
+            overflow: hidden;
+            text-overflow:ellipsis;
+            
         }
         
         /*
         Label the data
         */
         td:nth-of-type(1):before { content: "Start Free Pay as you go"; }
-        td:nth-of-type(2):before { content: "Standard"; }
-        td:nth-of-type(3):before { content: "Professional "; }
-        td:nth-of-type(4):before { content: "Enterprise"; }
+        td:nth-of-type(2):before { content: "Minimum recharge / Top-up"; }
+        td:nth-of-type(3):before { content: "Permitted Use"; }
+        td:nth-of-type(4):before { content: "Free Sign-Up Credit"; }
+        td:nth-of-type(5):before { content: "Using Your Own Questions (per candidate / test)"; }
+        td:nth-of-type(6):before { content: "Using Arrivu's Pre-Built Tests (per candidate / test)"; }
+        td:nth-of-type(7):before { content: "Webcam Proctoring (per candidate / test)"; }
+        td:nth-of-type(8):before { content: "Arrivu Question Banks"; }
+        td:nth-of-type(9):before { content: "Technical Support"; }
+        td:nth-of-type(10):before { content: "Arrivu Question Banks"; }
+        td:nth-of-type(11):before { content: "Create Unlimited Tests"; }
+        td:nth-of-type(12):before { content: "Add Unlimited Questions per Test"; }
+        td:nth-of-type(13):before { content: "Add Your Own (Basic type) Questions"; }
+        td:nth-of-type(14):before { content: "Customize Test Reports"; }
+        td:nth-of-type(15):before { content: "Multiple User Access"; }
        
     }
     

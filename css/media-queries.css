@@ -383,13 +383,22 @@ h2 {font-size: 17px;}
 h4 {font-size: 15px;}
 }
 
-@media (min-width: 200px)and(max-width: 780px){
+@media (max-width: 780px){
 
 ul#nav li a {color: #fff;}
 
 }
 
+@media (max-width: 749px){
 
+.price{display: block;}
+.desktop-pricing{display: none!important;}
+}
+@media (min-width: 749px){
+.price{display:none; }
+
+
+}
 @media (min-width: 400px) and (max-width: 780px){
 
     .price-table{font-size:89%}
