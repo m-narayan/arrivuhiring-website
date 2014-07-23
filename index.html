@@ -26,6 +26,8 @@
    <link rel="stylesheet" href="css/new-pricing.css">
    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/skins.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
    
 
    <!-- Script
@@ -51,7 +53,7 @@
    <header>
 
       <div class="logo">
-         <a class="smoothscroll" href="index.html"><img alt="" src="images/Arrivu-Logo-BP01-1C-rev.png"></a>
+         <a class="smoothscroll" href="#hero"><img alt="" src="images/Arrivu-Logo-BP01-1C-rev.png"></a>
       </div>
 
       <nav id="nav-wrap">         
@@ -188,26 +190,7 @@
 
    </section> <!-- Homepage Hero end -->
 
-         
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <!-- Features Section
+    <!-- Features Section
    ================================================== -->
    <section id='features'>
 
@@ -221,7 +204,7 @@
          </div>
 
          <div class="six columns feature-media left">
-             <a href="online-assessment.html"> <img src="images/ASS2.png" alt="" /></a>
+             <a href="images/Assessment list.png" data-imagelightbox="a" > <img src="images/Assessment list.png" alt="" /></a>
          </div>
 
       </div>
@@ -237,7 +220,7 @@
          </div>
 
          <div class="six columns feature-media right">
-              <a href="in-bulit-question.html"><img src="images/bank2.png" alt="" /></a>
+              <a href="images/QuesBank.png" data-imagelightbox="a"><img src="images/QuesBank.png" alt="" /></a>
          </div>
 
       </div>
@@ -253,7 +236,7 @@
          </div>
 
          <div class="six columns feature-media left">
-           <a href="proctoring.html" > <img src="images/pro3.png" alt="" /></a>
+           <a href="images/Web.png" data-imagelightbox="a" > <img src="images/Web.png" alt="" /></a>
          </div>
 
       </div>
@@ -269,7 +252,7 @@
          </div>
 
          <div class="six columns feature-media right">
-            <a href="automated-grading.html"> <img src="images/grade1.png" data-imagelightbox="a" alt="" /></a>
+            <a href="images/grade.png" data-imagelightbox="a"> <img src="images/grade.png" data-imagelightbox="a" alt="" /></a>
 
          </div>
 
@@ -796,7 +779,7 @@
                     <li><a href="privacy-policy.html">Privacy Policy</a></li>
                     <li><a href="terms-and-condition.html">Terms and Conditions</a></li>
                     <li><a href="faq.html ">FAQ</a></li>
-                    <li><a href="product-description">Product Description</a></li>
+                    <li><a href="product-description.html">Product Description</a></li>
                    
                     
                   </ul>
@@ -850,7 +833,13 @@
           sublayerContainer : 960
         });
       });   
-    </script>   
+    </script>  
+
+ <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
 
 </body>
 

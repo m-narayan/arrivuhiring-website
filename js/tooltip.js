@@ -45,9 +45,7 @@
         }
         setClickableTooltip('#t0', 'see <a style="color:#00accd" href="faq.html">FAQ</a>');
         setClickableTooltip('#t3', "The amount charged to your account for each candidate that takes a test created using your own Basic-Type Questions");
-        setClickableTooltip(
-                '#t4',
-                'The amount charged to your account for each candidate that takes a<a style="color:#00accd" href="in-bulit-question.html"> Pre-Built Test</a> through your account'
+        setClickableTooltip('#t4','The amount charged to your account for each candidate that takes a Pre-Built Test through your account'
         );
         setClickableTooltip('#t5',"Automatic Webcam Proctoring allows you to take exam-hall like controls in an online test. See a live video feed/static images of a candidate as they appear for a test.")
         setClickableTooltip('#t6',"Need someone to look over your candidates shoulder as they take a test? Use our remote-proctoring service in which trained proctors run a stringent check on the other side of the computer for the duration of the test")

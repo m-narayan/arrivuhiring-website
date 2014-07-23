@@ -787,7 +787,7 @@ $.Widget.prototype = {
     }
 };
 
-$.each( { show: "fadeOut", hide: "fadeIn" }, function( method, defaultEffect ) {
+$.each( { show: "fadeIn", hide: "fadeOut" }, function( method, defaultEffect ) {
     $.Widget.prototype[ "_" + method ] = function( element, options, callback ) {
         if ( typeof options === "string" ) {
             options = { effect: options };
